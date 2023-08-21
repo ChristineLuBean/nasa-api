@@ -38,7 +38,8 @@ body {
 }
 
 figure {
-  background-color:#fff;
+  background-color:#222425;
+  color: white;
   width: max-content;
   margin: 0 auto;
   padding: 2rem 1.75rem;
