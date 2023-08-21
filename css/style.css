@@ -44,4 +44,14 @@ figure {
   margin: 0 auto;
   padding: 2rem 1.75rem;
   border-radius: 15px;
+  position: relative;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1.9rem;
+  width: calc(100% - 3.8rem);
+  height: 560px;
 }
