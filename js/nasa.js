@@ -1,5 +1,5 @@
-const key = process.env.API_KEY;
+const ApiKey = process.env.API_KEY;
 
-export default function ApiKey() {
-  return key;
-}
+module.exports = {
+  ApiKey
+};
