@@ -1,10 +1,9 @@
-const { ApiKey } = require('./nasa');
+const apiKey = 'nPdJJm8JCgqsIQzF9Z36zFlUcf4MuFBE8dySsGT2';
 
-console.log('API Key:', ApiKey);
 // Function to fetch APOD data based on the selected date
 function getFetch() {
   const selectedDate = document.querySelector('input').value;
-  const url = `https://api.nasa.gov/planetary/apod?api_key=${ApiKey}&date=${selectedDate}`;
+  const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${selectedDate}`;
   document.querySelector('img').src = '';
   document.querySelector('iframe').src = '';
 
