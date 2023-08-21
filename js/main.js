@@ -1,4 +1,6 @@
 const { ApiKey } = require('./nasa');
+
+console.log('API Key:', ApiKey);
 // Function to fetch APOD data based on the selected date
 function getFetch() {
   const selectedDate = document.querySelector('input').value;

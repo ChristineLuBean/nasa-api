@@ -1,2 +1,0 @@
-[build]
-  command = "node ./js/nasa.js"
