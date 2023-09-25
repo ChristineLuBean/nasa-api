@@ -1,21 +1,20 @@
-# My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# NASA Image of the Day
+A website that displays NASA's "Astronomy Picture of the Day" (APOD) using data from NASA's API, offering users a daily dose of cosmic beauty and wonder.
 
 **Link to project:** https://dashing-biscotti-7ebde7.netlify.app
 
-![alt tag](http://placecorgi.com/1200/650)
+![screenshot of NASA picture of the day web application](http://placecorgi.com/1200/650)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+This web app is built to showcase NASA's "Astronomy Picture of the Day" using JavaScript and NASA's API. I defined the necessary NASA API key and employed the getFetch() function to fetch APOD data based on the user's selected date. Prior to displaying new content, I have it clear any existing media elements on the webpage. Once data is retrieved from the API, it dynamically updates the webpage, displaying either a high-definition image or a video based on the media_type in the API response.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+1. Making Date-Based API Requests: I learned how to make date-based requests to NASA's API which allows users to retrieve content from a specific day to view historical data and visuals.
+
+2. Media Display: I learned how to efficiently handle and showcase various types of media fetched from the API, whether it is an image or a video, allowing users to explore the captivating array of NASA's multimedia offerings.
+
+The lessons I've learned have not only enhanced my technical abilities but also contributed to creating a more engaging and user-friendly web application that displays NASA's awe-inspiring content.
