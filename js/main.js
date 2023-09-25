@@ -12,8 +12,10 @@ function getFetch() {
     .then(data => {
       console.log(data)
       if (data.media_type === 'image') {
+        document.querySelector('iframe').src = '';
         document.querySelector('img').src = data.hdurl;
       } else if (data.media_type === 'video') {
+        document.querySelector('img').src = '';
         document.querySelector('iframe').src = data.url;
       }
       document.querySelector('p').innerText = data.explanation;
